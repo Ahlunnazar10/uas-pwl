@@ -34,7 +34,7 @@ class ListPegawaiController extends Controller
         $user = \App\Models\User::all();
         $agama = \App\Models\Agama::all();
         $pendidikan = \App\Models\Pendidikan::all();
-        $jbts = \App\Models\jabatanstruktural::all();
+        $jbts = \App\Models\JabatanStruktural::all();
         return view('pegawai.list', [
             'pegawai' => $pegawai,
             'user' => $user,
